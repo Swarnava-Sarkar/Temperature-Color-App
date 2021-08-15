@@ -29,7 +29,7 @@ const App = () => {
     if (newValue >= 45) {
       settempCol("hot4");
     }
-    if (newValue >= 19 && newValue <= 20) {
+    if (newValue >= 19 && newValue < 20) {
       settempCol("cool");
     }
     if (newValue >= 15 && newValue <= 18) {
@@ -79,7 +79,7 @@ const App = () => {
     if (newValue >= 45) {
       settempCol("hot4");
     }
-    if (newValue >= 19 && newValue <= 20) {
+    if (newValue >= 19 && newValue < 20) {
       settempCol("cool");
     }
     if (newValue >= 15 && newValue <= 18) {
